@@ -187,7 +187,7 @@ async def start(client, message):
                     InlineKeyboardButton("Repo", url="https://t.me/joinchat/MnPFCkvcDjZCbjE09lngIw")
                     ]]
         Photo = "https://telegra.ph/file/b04509cc8486f23690bba.jpg"
-        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @MetaVoid", reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @kumar_manis", reply_markup=InlineKeyboardMarkup(buttons))
 
 
 
