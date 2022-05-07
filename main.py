@@ -177,14 +177,14 @@ async def start(client, message):
     if message.chat.type != "private":
         buttons = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Click here",
-                url=f"t.me/kukichatbot?start")]])
+                url=f"t.me/Kinkky_PlaygirlBot?start")]])
         await message.reply("Contact me in PM",
                             reply_markup=buttons)
         
     else:
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/metavoidsupport"),
-                    InlineKeyboardButton("Channel", url="https://t.me/metavoid"),
-                    InlineKeyboardButton("Repo", url="https://github.com/metavoidteam/kukichatbot")
+        buttons = [[InlineKeyboardButton("Support", url="https://t.me/joinchat/MnPFCkvcDjZCbjE09lngIw"),
+                    InlineKeyboardButton("Channel", url="https://t.me/joinchat/MnPFCkvcDjZCbjE09lngIw"),
+                    InlineKeyboardButton("Repo", url="https://t.me/joinchat/MnPFCkvcDjZCbjE09lngIw")
                     ]]
         Photo = "https://telegra.ph/file/b04509cc8486f23690bba.jpg"
         await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @MetaVoid", reply_markup=InlineKeyboardMarkup(buttons))
@@ -198,7 +198,7 @@ async def help(client, message):
     if message.chat.type != "private":
         buttons = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Click here",
-                url=f"t.me/kukichatbot?start=help_")]])
+                url=f"t.me/Kinkky_PlaygirlBot?start=help_")]])
         await message.reply("Contact me in PM",
                             reply_markup=buttons)
         
